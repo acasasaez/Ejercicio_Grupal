@@ -6,12 +6,12 @@ def claridad ():
     b= [0,1,2]
     global lucia
     global carlitos
-    a[0]= int(input("Introduzca la puntuación de Lucía"))
-    b[0]=int(input("Introduzca la puntuación de Carlitos"))
+    a[0]= int(input("Introduzca la puntuación de Lucía: "))
+    b[0]=int(input("Introduzca la puntuación de Carlitos: "))
     while a [0]>100 or b[0]> 100 or a[0]<0 or b[0]<0:
         print ("Las puntuaciones asignadas deben estar entre 0 y 100")
-        a[0]= int(input("Introduzca la puntuación de Lucía"))
-        b[0]=int(input("Introduzca la puntuación de Carlitos"))
+        a[0]= int(input("Introduzca la puntuación de Lucía: "))
+        b[0]=int(input("Introduzca la puntuación de Carlitos: "))
     
     if a[0]>b[0]:
            lucia+= 1
@@ -22,7 +22,7 @@ def claridad ():
             print ("Lucía tiene", lucia,"puntos.")
             print("Carlitos tiene", carlitos, "puntos.")
     else:
-            print ("EMPATE")
+            print ("empate en  la categoría claridad claridad")
             print ("Lucía tiene", lucia,"puntos.")
             print("Carlitos tiene", carlitos, "puntos.")
 def originalidad ():
@@ -30,12 +30,12 @@ def originalidad ():
     b =[0,1,2]
     global lucia
     global carlitos 
-    a[1] = int(input("Introduzca la puntuación de Lucía"))
-    b [1]= int (input ("Introduzca la puntuación de Carlitos "))
+    a[1] = int(input("Introduzca la puntuación de Lucía: "))
+    b [1]= int (input ("Introduzca la puntuación de Carlitos: "))
     while a[1]> 100 or b[1]> 100 or a[1]< 0 or b[1]< 0:
         print ("Las puntuaciones asignadas deben estar comprendidas entre 0 y 100")
-        a[1] = int(input("Introduzca la puntuación de Lucía"))
-        b [1]= int (input ("Introduzca la puntuación de Carlitos "))
+        a[1] = int(input("Introduzca la puntuación de Lucía: "))
+        b [1]= int (input ("Introduzca la puntuación de Carlitos: "))
     
     if a[1]>b[1]:
             lucia += 1
@@ -46,7 +46,7 @@ def originalidad ():
             print ("Lucía tiene",lucia,"puntos.")
             print("Carlitos tiene",carlitos,"puntos.")
     else:
-            print ("EMPATE")
+            print ("empate en la categoría originalidad")
             print ("Lucía tiene",lucia,"puntos.")
             print("Carlitos tiene",carlitos,"puntos.")
 def dificultad ():
@@ -54,12 +54,12 @@ def dificultad ():
     b=[0,1,2]
     global lucia
     global carlitos
-    a[2] = int (input ("Introduzca la puntuación de Lucía"))
-    b[2]= int(input("Introduzca la puntuación de Carlitos"))
+    a[2] = int (input ("Introduzca la puntuación de Lucía: "))
+    b[2]= int(input("Introduzca la puntuación de Carlitos: "))
     while a[2]> 100 or b[2]> 100 or a[2]< 0 or b[2]< 0:
         print ("Las puntuaciones asignadas deben estar entre 0 y 100")
-        a[2] = int (input ("Introduzca la puntuación de Lucía"))
-        b[2]= int(input("Introduzca la puntuación de Carlitos"))
+        a[2] = int (input ("Introduzca la puntuación de Lucía: "))
+        b[2]= int(input("Introduzca la puntuación de Carlitos: "))
     
     if a [2]> b[2]:
             lucia +=1
@@ -70,7 +70,7 @@ def dificultad ():
             print ("Lucía tiene", lucia, "puntos.")
             print ("Carlitos tiene", carlitos, "puntos")
     else: 
-            print ("EMPATE")
+            print ("empate en la categoría dificultad")
             print ("Lucía tiene", lucia, "puntos.")
             print ("Carlitos tiene", carlitos, "puntos")
 def compara ():
@@ -85,10 +85,19 @@ def compara ():
 print("Puntuación de los trabajos")
 print("Puntuaciones en claridad")
 claridad()
+print(" ")
 print("Puntuaciones en originalidad")
 originalidad()
+print(" ")
 print("Puntuaciones en dificultad")
 dificultad()
-compara()
+print(" ")
+print ("RESULTADO FINAL:")
+a= ["LUCÍA", "CARLITOS"]
+c = [lucia, carlitos ]
 
+
+print (a[0], a [1])
+print(" ",c[0], " ", " "," ", c[1])
+compara()
 

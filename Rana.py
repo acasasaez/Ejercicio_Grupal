@@ -16,6 +16,7 @@ class Tunel:
     def __init__(self,x1,x2,y1,y2):
         self.extremo1 = Coordenadas(x1,y1)
         self.extremo2 = Coordenadas (x2,y2)
+
 def BuscaTunel (casillax, casillay, tuneles):
     coordenadas = Coordenadas(casillax, casillay)
     for t in tuneles:
@@ -26,4 +27,29 @@ def BuscaTunel (casillax, casillay, tuneles):
             coordenadas.x=t.extremo1.x
             coordenadas.y = t.extremo1.y
     return coordenadas
-    
+
+def exploracion(casillax, casillay, laberinto, n, m, tuneles):
+    numero =0
+    den = 0
+    prob = 0.0
+    if casillax>0 and laberinto[casillax-1][casillay]!= "#":
+        den += 1
+        if laberinto [casillax-1][casillay]=="%":
+            numero+=1
+    if casillax<n-1 and laberinto[casillax+1][casillay]!= #:
+        den+= 1
+        if laberinto[casillax+1][casillay]=="%":
+            numero+=1
+    if casillay<m-1 and laberinto[casillax][casillay+1]!="#":
+        den+=1
+        if laberinto[casillax][casillay+1]=="%":
+            numero+=1
+    if casillay > 0 and laberinto[casillax][casillay-1]!="#":
+        den +=1
+        if laberinto[casillax][casillay-1]== "%":
+            numero +=1
+        
+
+
+
+

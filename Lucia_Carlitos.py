@@ -67,6 +67,15 @@ def dificultad ():
             print ("EMPATE")
             print ("Lucía tiene", lucia, "puntos.")
             print ("Carlitos tiene", carlitos, "puntos")
+def compara ():
+    global lucia
+    global carlitos
+    if lucia > carlitos:
+        print ("El trabajo ganador es el de Lucía") 
+    elif lucia < carlitos:
+        print ("El trabajo ganador es el de Carlitos")
+    else: 
+        print ("Los trabajos han empatadp")
 print("Puntuación de los trabajos")
 print("Puntuaciones en claridad")
 claridad()
@@ -74,4 +83,6 @@ print("Puntuaciones en originalidad")
 originalidad()
 print("Puntuaciones en dificultad")
 dificultad()
+compara()
+
 

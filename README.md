@@ -153,6 +153,18 @@ EJERCICIO 6:
 
 ![figma rana](https://user-images.githubusercontent.com/91721714/146655994-8966be66-5588-468a-aacb-5fbe6375e081.PNG)
 
+EJERCICIO 7:
+
+![figma calificaciones](https://user-images.githubusercontent.com/91721714/146656187-934cef15-ba97-48a1-9591-d6df55d21636.PNG)
+
+
+EJERCICIO 8:
+
+![figma naranjas y manzanas](https://user-images.githubusercontent.com/91721714/146656353-9bc7c41b-0a2c-476a-85c6-d21def83a7de.PNG)
+
+
+
+
 
 
 ```Códigos

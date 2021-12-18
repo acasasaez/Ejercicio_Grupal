@@ -23,5 +23,12 @@ def claridad ():
             print ("EMPATE")
             print ("Lucía tiene", lucia,"puntos.")
             print("Carlitos tiene", carlitos, "puntos.")
-
+def originalidad ():
+    a = [0,1,2]
+    b =[0,1,2]
+    global lucia
+    global carlitos 
+    a[1] = int(input("Introduzca la puntuación de Lucía"))
+    a [2]= int (input ("Introduzca la puntuación de Carlitos "))
+    
 

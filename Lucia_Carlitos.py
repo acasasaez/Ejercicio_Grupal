@@ -29,6 +29,7 @@ def originalidad ():
     global lucia
     global carlitos 
     a[1] = int(input("Introduzca la puntuación de Lucía"))
-    a [2]= int (input ("Introduzca la puntuación de Carlitos "))
+    b [1]= int (input ("Introduzca la puntuación de Carlitos "))
+    if a[1]> 100 or b[1]> 100 or a[1]< 0 or b[1]< 0:
+        print ("Las puntuaciones asignadas deben estar comprendidas entre 0 y 100")
     
-

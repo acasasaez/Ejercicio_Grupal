@@ -34,5 +34,8 @@ def simulacion (n):
             ganador = ("P"+str(intentos%2)+1 +"es el ganador")
         intentos+=1
         print (ganador)
-
-
+if __name__ =="__main__":
+    t =int(input().strip())
+    for t_itr in range (t):
+        n=int(input().strip())
+        result = gameOfStrones(n)

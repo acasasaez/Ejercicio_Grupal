@@ -126,7 +126,10 @@ Cuando una fruta cae de su árbol, aterriza a d unidades de distancia desde su �
 largo del eje x. * Un valor negativo de significa que la fruta cayó a d unidades a la izquierda del 
 árbol, y un valor positivo de significa que cae a d unidades a la derecha del árbol. *
 
-PONER FIGMAS AQuÏ
+Figmas:
+
+[Ejercicios 1 y 3]: ![Ejercicio1y3grupal](https://user-images.githubusercontent.com/91721714/146654587-ab8b1812-1cac-4dce-9779-f76d0d2f31ea.PNG)
+
 
 Códigos:
 ```

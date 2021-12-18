@@ -1,17 +1,3 @@
-
-import math
-import os
-import random
-import re
-import sys
-
-def simpleArraySum(matriz):
-    suma = 0
-    for fila in matriz:
-        for n in fila:
-            suma += n
-
-
 n = int(input("Introduce el número de filas"))
 m = int (input("Introduce el número de columnas"))
 mat = [[" " for j in range (m)] for i in range (n)]
@@ -23,5 +9,10 @@ for i in range (n):
     
 print ("RESULTADO FINAL") 
 print (mat)
-
 print(suma)
+
+
+
+
+
+    

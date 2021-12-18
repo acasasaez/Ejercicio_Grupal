@@ -75,7 +75,12 @@ def exploracion(casillax, casillay, laberinto, n, m, tuneles):
     return prob
 if __name__ == "__main__":
     print ("Dimensiones del laberinto y número de tuneles:(filas,columnas)")
- 
+    first_multiple_input = input().rstrip().split()
+    n= int(first_multiple_input[0])
+    m= int(first_multiple_input[1])
+    k= int(first_multiple_input[2])
+    laberinto=[]
+    
     
 
 

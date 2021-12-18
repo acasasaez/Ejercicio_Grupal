@@ -149,6 +149,11 @@ EJERCICIO 5:
 
 ![figma piedras](https://user-images.githubusercontent.com/91721826/146655536-b0047660-fd79-4391-9086-3195311862dd.jpg)
 
+EJERCICIO 6:
+
+![figma rana](https://user-images.githubusercontent.com/91721714/146655994-8966be66-5588-468a-aacb-5fbe6375e081.PNG)
+
+
 
 ```Códigos
 

@@ -128,17 +128,16 @@ largo del eje x. * Un valor negativo de significa que la fruta cayó a d unidade
 
 Figmas:
 
-[Ejercicios 1 y 3]: ![Ejercicio1y3grupal](https://user-images.githubusercontent.com/91721714/146654587-ab8b1812-1cac-4dce-9779-f76d0d2f31ea.PNG)
-[Ejercicio 2]:![Ejercicio2grupal](https://user-images.githubusercontent.com/91721714/146654907-23d032b6-e0e3-4953-8c31-cc1185320021.PNG)
-[Ejercicio 4]: ![Ejercicio4grupal](https://user-images.githubusercontent.com/91721714/146655025-2ec4330b-be8c-4b2d-8af9-324387360113.PNG)
-[Ejercicio 5]: ![Ejercicio5grupal](https://user-images.githubusercontent.com/91721714/146655265-abcc5789-847f-41ee-ad3a-904d1f07eb4b.PNG)
+EJERCICIOS 1 y 3:
 
 
+
+![figma matriz](https://user-images.githubusercontent.com/91721826/146655483-e3d06490-8639-46ef-909d-5405a070c551.jpg)
 
 Códigos:
 ```
 EJERCICIO 1 y 3:
-n = int(input("Introduce el número de filas"))
+n = int(input("Introduce el número de filas"))![Uploading figma matriz.jpg…]()
 m = int (input("Introduce el número de columnas"))
 mat = [[" " for j in range (m)] for i in range (n)]
 suma = 0

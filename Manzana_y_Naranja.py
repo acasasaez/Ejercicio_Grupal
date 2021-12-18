@@ -7,11 +7,11 @@ import sys
 def countApplesAndOranges(s, t, a, b, apples, oranges):
     manzanasdentro= 0 
     naranjasdentro = 0
-    for manzanas in apples:
-        if(a+manzanas>=s and a+manzanas<=t):
+    for manzana in apples:
+        if(a+manzana>=s and a+manzana<=t):
             manzanasdentro+=1
-    for naranjas in oranges:
-        if(b+naranjas>=s and b+naranjas<=t):
+    for naranja in oranges:
+        if(b+naranja>=s and b+naranja<=t):
             naranjasdentro+=1
     print("Han caído " + str(manzanasdentro) + "manzanasdentro")
     print("Han caído " + str(naranjasdentro) + "naranjasdentro")

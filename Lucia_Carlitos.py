@@ -32,4 +32,15 @@ def originalidad ():
     b [1]= int (input ("Introduzca la puntuación de Carlitos "))
     if a[1]> 100 or b[1]> 100 or a[1]< 0 or b[1]< 0:
         print ("Las puntuaciones asignadas deben estar comprendidas entre 0 y 100")
-    
+    else:
+        if a[1]>b[1]:
+            lucia += 1
+            print ("Lucía tiene",lucia,"puntos.")
+            print("Carlitos tiene",carlitos,"puntos.")
+        elif a[1] < b [1]:
+            carlitos +=1
+            print ("Lucía tiene",lucia,"puntos.")
+            print("Carlitos tiene",carlitos,"puntos.")
+        else:
+            print ("Lucía tiene",lucia,"puntos.")
+            print("Carlitos tiene",carlitos,"puntos.")

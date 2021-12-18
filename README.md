@@ -134,8 +134,24 @@ EJERCICIOS 1 y 3:
 
 ![figma matriz](https://user-images.githubusercontent.com/91721826/146655483-e3d06490-8639-46ef-909d-5405a070c551.jpg)
 
-Códigos:
-```
+EJERCICIO 2:
+
+![figma lc](https://user-images.githubusercontent.com/91721826/146655496-95bc5aec-9ae1-475a-9185-696c52e03445.jpg)
+
+EJERCICIO 4:
+
+
+![figma escalera](https://user-images.githubusercontent.com/91721826/146655509-bc4e7f48-e243-4433-b39a-dfc30b15e22f.jpg)
+
+EJERCICIO 5:
+
+
+
+![figma piedras](https://user-images.githubusercontent.com/91721826/146655536-b0047660-fd79-4391-9086-3195311862dd.jpg)
+
+
+```Códigos
+
 EJERCICIO 1 y 3:
 n = int(input("Introduce el número de filas"))![Uploading figma matriz.jpg…]()
 m = int (input("Introduce el número de columnas"))

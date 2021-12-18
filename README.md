@@ -129,6 +129,8 @@ largo del eje x. * Un valor negativo de significa que la fruta cayó a d unidade
 Figmas:
 
 [Ejercicios 1 y 3]: ![Ejercicio1y3grupal](https://user-images.githubusercontent.com/91721714/146654587-ab8b1812-1cac-4dce-9779-f76d0d2f31ea.PNG)
+[Ejercicio 2]:![Ejercicio2grupal](https://user-images.githubusercontent.com/91721714/146654907-23d032b6-e0e3-4953-8c31-cc1185320021.PNG)
+
 
 
 Códigos:

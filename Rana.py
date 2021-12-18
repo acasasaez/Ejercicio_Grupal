@@ -36,7 +36,7 @@ def exploracion(casillax, casillay, laberinto, n, m, tuneles):
         den += 1
         if laberinto [casillax-1][casillay]=="%":
             numero+=1
-    if casillax<n-1 and laberinto[casillax+1][casillay]!= #:
+    if casillax<n-1 and laberinto[casillax+1][casillay]!= "#":
         den+= 1
         if laberinto[casillax+1][casillay]=="%":
             numero+=1
@@ -55,7 +55,24 @@ def exploracion(casillax, casillay, laberinto, n, m, tuneles):
         laberintocopia= laberinto 
         coordenadas= BuscaTunel(casillax-1,casillay,tuneles)
         laberintocopia [casillax][casillay]= "#"
+    prob+= exploracion(coordenadas.x,coordenadas.y,laberintocopia,n,m,tuneles)/den
+    if casillax<n-1 and laberinto[casillax+1][casillay]== "$":
+        laberintocopia = laberinto
+        coordenadas = BuscaTunel(casillax+1,casillay,tuneles)
+        laberintocopia[casillax][casillay]="#"
     
+    prob+=exploracion(coordenadas.x,coordenadas.y,laberintocopia,n,m,tuneles)/den
+    if casillay<m-1 and laberinto[casillax][casillay+1]=="$":
+        laberintocopia=laberinto
+        coordenadas=BuscaTunel(casillax,casillay+1,tuneles)
+        laberintocopia[casillax][casillay]="#"
+    prob +=exploracion(coordenadas.x,coordenadas.y,laberintocopia,n,m,tuneles)/den
+    if casillay >0 and laberinto[casillax][casillay-1]=="$":
+        laberintocopia=laberinto
+        coordenadas = BuscaTunel(casillax,casillay,tuneles)
+        laberintocopia[casillax][casillay]="#"
+    prob += exploracion(coordenadas.x,coordenadas.y,laberintocopia,n,m,tuneles)/den
+    return prob
 
 
 

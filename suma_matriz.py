@@ -4,10 +4,11 @@ mat = [[" " for j in range (m)] for i in range (n)]
 suma = 0
 for i in range (n):
     for j in range (m):
-        mat[i][j] = int(input("VALOR DEL ELEMENTO"))
+        mat[i][j] = int(input("VALOR DEL ELEMENTO", ))
         suma += mat [i][j]
-    print (suma)
-print ("RESULTADO FINAL")   
+    
+print ("RESULTADO FINAL") 
+print (mat)
 print(suma)
 
 

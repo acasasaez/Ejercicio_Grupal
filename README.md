@@ -1,6 +1,8 @@
 # Ejercicio_Grupal
 En esta entrega nos ha tocado realizar un trabajo grupal. Para ello, como siempre, hemos tenido que crear un repositorio, en este caso compartido, dejamos aquí el enlace al mismo:https://github.com/acasasaez/Ejercicio_Grupal.git
 
+Este grupo está compuesto por Andrea Casas y Miguel Guerra.
+
 Nuestra tarea consta de 8 ejercicios:
 
 Ejercicio 1: Suma de una matriz simple:
@@ -124,5 +126,9 @@ Cuando una fruta cae de su árbol, aterriza a d unidades de distancia desde su �
 largo del eje x. * Un valor negativo de significa que la fruta cayó a d unidades a la izquierda del 
 árbol, y un valor positivo de significa que cae a d unidades a la derecha del árbol. *
 
+PONER FIGMAS AQuÏ
+
+Códigos:
+```EJERCICIO 1 y 3:
 
 

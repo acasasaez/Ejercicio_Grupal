@@ -48,7 +48,14 @@ def exploracion(casillax, casillay, laberinto, n, m, tuneles):
         den +=1
         if laberinto[casillax][casillay-1]== "%":
             numero +=1
-        
+    if den == 0:
+        return prob
+    prob = numero/den
+    if casillax> 0 and laberinto [casillax-1][casillay]   == "$":
+        laberintocopia= laberinto 
+        coordenadas= BuscaTunel(casillax-1,casillay,tuneles)
+        laberintocopia [casillax][casillay]= "#"
+    
 
 
 

@@ -1,26 +1,12 @@
-import math
-import os
-import random
-import re
-import sys
-
-def simpleArraySum(matriz):
-    suma = 0
-    for fila in matriz:
-        for n in fila:
-            suma += n
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'] + 'Suma_matriz_simple' , 'w')
-matriz_count = int(input().strip())
-print("Escribe la lista de números que desea operar ")
-matriz = list(map(int, input().rstrip().split()))
-
-
-result = simpleArraySum(matriz)
-
-fptr.write(str(result) + '\n')
-
-fptr.close()
-
-
+n = int(input("Introduce el número de filas"))
+m = int (input("Introduce el número de columnas"))
+mat = [[" " for j in range (m)] for i in range (n)]
+suma = 0
+for i in range (n):
+    for j in range (m):
+        mat[i][j] = int(input("VALOR DEL ELEMENTO", ))
+        suma += mat [i][j]
+    
+print ("RESULTADO FINAL") 
+print (mat)
+print(suma)

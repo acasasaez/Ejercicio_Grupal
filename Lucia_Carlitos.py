@@ -67,3 +67,11 @@ def dificultad ():
             print ("EMPATE")
             print ("Lucía tiene", lucia, "puntos.")
             print ("Carlitos tiene", carlitos, "puntos")
+print("Puntuación de los trabajos")
+print("Puntuaciones en claridad")
+claridad()
+print("Puntuaciones en originalidad")
+originalidad()
+print("Puntuaciones en dificultad")
+dificultad()
+

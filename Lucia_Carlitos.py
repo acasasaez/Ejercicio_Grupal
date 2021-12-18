@@ -42,12 +42,28 @@ def originalidad ():
             print ("Lucía tiene",lucia,"puntos.")
             print("Carlitos tiene",carlitos,"puntos.")
         else:
+            print ("EMPATE")
             print ("Lucía tiene",lucia,"puntos.")
             print("Carlitos tiene",carlitos,"puntos.")
 def dificultad ():
     a = [0, 1, 2]
     b=[0,1,2]
+    global lucia
+    global carlitos
     a[2] = int (input ("Introduzca la puntuación de Lucía"))
     b[2]= int(input("Introduzca la puntuación de Carlitos"))
     if a[1]> 100 or b[1]> 100 or a[1]< 0 or b[1]< 0:
         print ("Las puntuaciones asignadas deben estar emtre 0 y 100")
+    else:
+        if a [2]> b[2]:
+            lucia +=1
+            print ("Lucía tiene", lucia, "puntos.")
+            print ("Carlitos tiene", carlitos, "puntos")
+        elif a[2] < b[2]:
+            carlitos += 1
+            print ("Lucía tiene", lucia, "puntos.")
+            print ("Carlitos tiene", carlitos, "puntos")
+        else: 
+            print ("EMPATE")
+            print ("Lucía tiene", lucia, "puntos.")
+            print ("Carlitos tiene", carlitos, "puntos")

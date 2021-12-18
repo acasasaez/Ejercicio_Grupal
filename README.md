@@ -130,6 +130,8 @@ Figmas:
 
 [Ejercicios 1 y 3]: ![Ejercicio1y3grupal](https://user-images.githubusercontent.com/91721714/146654587-ab8b1812-1cac-4dce-9779-f76d0d2f31ea.PNG)
 [Ejercicio 2]:![Ejercicio2grupal](https://user-images.githubusercontent.com/91721714/146654907-23d032b6-e0e3-4953-8c31-cc1185320021.PNG)
+[Ejercicio 4]: ![Ejercicio4grupal](https://user-images.githubusercontent.com/91721714/146655025-2ec4330b-be8c-4b2d-8af9-324387360113.PNG)
+[Ejercicio 5]: ![Ejercicio5grupal](https://user-images.githubusercontent.com/91721714/146655265-abcc5789-847f-41ee-ad3a-904d1f07eb4b.PNG)
 
 
 

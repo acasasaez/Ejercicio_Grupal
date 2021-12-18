@@ -129,7 +129,8 @@ largo del eje x. * Un valor negativo de significa que la fruta cayó a d unidade
 PONER FIGMAS AQuÏ
 
 Códigos:
-```EJERCICIO 1 y 3:
+```
+EJERCICIO 1 y 3:
 n = int(input("Introduce el número de filas"))
 m = int (input("Introduce el número de columnas"))
 mat = [[" " for j in range (m)] for i in range (n)]

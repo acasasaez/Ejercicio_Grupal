@@ -73,7 +73,10 @@ def exploracion(casillax, casillay, laberinto, n, m, tuneles):
         laberintocopia[casillax][casillay]="#"
     prob += exploracion(coordenadas.x,coordenadas.y,laberintocopia,n,m,tuneles)/den
     return prob
-
+if __name__ == "__main__":
+    print ("Dimensiones del laberinto y número de tuneles:(filas,columnas)")
+ 
+    
 
 
 
